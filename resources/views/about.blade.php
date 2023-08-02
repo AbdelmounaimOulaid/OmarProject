@@ -20,11 +20,11 @@
                     <h6 class="position-relative text-primary ps-4">About Us</h6>
                     <h2 class="mt-2">The Best Platform for Virtual Meetings and Interactions</h2>
                 </div>
-                <p class="mb-4">Imeetly is a cutting-edge online platform that has been specifically designed to enhance virtual meetings and interactions for users. The platform offers a seamless and user-friendly environment, enabling individuals and groups to effortlessly connect, collaborate, and communicate with one another.
+                <p class="mb-4">Lemeetly is a cutting-edge online platform that has been specifically designed to enhance virtual meetings and interactions for users. The platform offers a seamless and user-friendly environment, enabling individuals and groups to effortlessly connect, collaborate, and communicate with one another.
 
-                    With Imeetly, you can host virtual meetings with ease. The platform provides a range of advanced features that ensure a smooth and productive meeting experience. Users can join meetings from any location using their preferred devices, whether it's a computer, tablet, or smartphone. Imeetly supports multiple video and audio participants, enabling real-time face-to-face interactions, just like in a physical meeting room.
+                    With Lemeetly, you can host virtual meetings with ease. The platform provides a range of advanced features that ensure a smooth and productive meeting experience. Users can join meetings from any location using their preferred devices, whether it's a computer, tablet, or smartphone. Lemeetly supports multiple video and audio participants, enabling real-time face-to-face interactions, just like in a physical meeting room.
 
-                    One of the key advantages of Imeetly is its intuitive interface. Navigating the platform is simple, even for users who are new to online meetings.</p>
+                    One of the key advantages of Lemeetly is its intuitive interface. Navigating the platform is simple, even for users who are new to online meetings.</p>
                 <div class="row g-3">
 
                 </div>
@@ -38,11 +38,11 @@
         <div class="row">
             <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
 
-                <p class="mb-4">Imeetly is a cutting-edge online platform that has been specifically designed to enhance virtual meetings and interactions for users. The platform offers a seamless and user-friendly environment, enabling individuals and groups to effortlessly connect, collaborate, and communicate with one another.
+                <p class="mb-4">Lemeetly is a cutting-edge online platform that has been specifically designed to enhance virtual meetings and interactions for users. The platform offers a seamless and user-friendly environment, enabling individuals and groups to effortlessly connect, collaborate, and communicate with one another.
 
-                    With Imeetly, you can host virtual meetings with ease. The platform provides a range of advanced features that ensure a smooth and productive meeting experience. Users can join meetings from any location using their preferred devices, whether it's a computer, tablet, or smartphone. Imeetly supports multiple video and audio participants, enabling real-time face-to-face interactions, just like in a physical meeting room.
+                    With Lemeetly, you can host virtual meetings with ease. The platform provides a range of advanced features that ensure a smooth and productive meeting experience. Users can join meetings from any location using their preferred devices, whether it's a computer, tablet, or smartphone. Lemeetly supports multiple video and audio participants, enabling real-time face-to-face interactions, just like in a physical meeting room.
 
-                    One of the key advantages of Imeetly is its intuitive interface. Navigating the platform is simple, even for users who are new to online meetings.</p>
+                    One of the key advantages of Lemeetly is its intuitive interface. Navigating the platform is simple, even for users who are new to online meetings.</p>
                 <div class="row g-3">
                     <!-- <div class="col-sm-6">
                                 <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>Award Winning</h6>

@@ -28,7 +28,7 @@
                     </div>
                     <h5 class="mb-3">Virtual Meetings</h5>
                     <p>
-                        Imeetly allows users to host and participate in virtual
+                        Lemeetly allows users to host and participate in virtual
                         meetings, providing a platform for face-to-face interactions
                         from anywhere in the world
                     </p>
@@ -42,7 +42,7 @@
                     </div>
                     <h5 class="mb-3">Collaboration Tools</h5>
                     <p>
-                        Imeetly offers a range of collaborative features, such as
+                        Lemeetly offers a range of collaborative features, such as
                         screen sharing and document sharing, to enhance teamwork and
                         productivity during meetings.
                     </p>
@@ -58,7 +58,7 @@
                     <p>
                         Users can exchange messages and chat in real-time, fostering
                         seamless communication and facilitating quick discussions
-                        within the Imeetly platform.
+                        within the Lemeetly platform.
                     </p>
                     <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
                 </div>
@@ -70,7 +70,7 @@
                     </div>
                     <h5 class="mb-3">Video Conferencing</h5>
                     <p>
-                        Imeetly enables high-quality video conferences, allowing
+                        Lemeetly enables high-quality video conferences, allowing
                         multiple participants to join and engage in interactive
                         discussions.
                     </p>
@@ -98,7 +98,7 @@
                     </div>
                     <h5 class="mb-3">Security and Privacy</h5>
                     <p>
-                        Imeetly prioritizes the security and privacy of its users,
+                        Lemeetly prioritizes the security and privacy of its users,
                         implementing measures to protect sensitive information and
                         maintain a safe meeting environment.
                     </p>

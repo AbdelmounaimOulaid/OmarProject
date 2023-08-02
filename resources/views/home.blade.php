@@ -57,7 +57,7 @@
                     </h2>
                 </div>
                 <p class="mb-4">
-                    Imeetly is an online platform designed to facilitate virtual
+                    Lemeetly is an online platform designed to facilitate virtual
                     meetings and interactions among users. It provides a seamless
                     and user-friendly environment for individuals and groups to
                     connect, collaborate, and communicate.
@@ -142,7 +142,7 @@
                     </div>
                     <h5 class="mb-3">Virtual Meetings</h5>
                     <p>
-                        Imeetly allows users to host and participate in virtual
+                        Lemeetly allows users to host and participate in virtual
                         meetings, providing a platform for face-to-face interactions
                         from anywhere in the world
                     </p>
@@ -156,7 +156,7 @@
                     </div>
                     <h5 class="mb-3">Collaboration Tools</h5>
                     <p>
-                        Imeetly offers a range of collaborative features, such as
+                        Lemeetly offers a range of collaborative features, such as
                         screen sharing and document sharing, to enhance teamwork and
                         productivity during meetings.
                     </p>
@@ -172,7 +172,7 @@
                     <p>
                         Users can exchange messages and chat in real-time, fostering
                         seamless communication and facilitating quick discussions
-                        within the Imeetly platform.
+                        within the Lemeetly platform.
                     </p>
                     <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
                 </div>
@@ -184,7 +184,7 @@
                     </div>
                     <h5 class="mb-3">Video Conferencing</h5>
                     <p>
-                        Imeetly enables high-quality video conferences, allowing
+                        Lemeetly enables high-quality video conferences, allowing
                         multiple participants to join and engage in interactive
                         discussions.
                     </p>
@@ -212,7 +212,7 @@
                     </div>
                     <h5 class="mb-3">Security and Privacy</h5>
                     <p>
-                        Imeetly prioritizes the security and privacy of its users,
+                        Lemeetly prioritizes the security and privacy of its users,
                         implementing measures to protect sensitive information and
                         maintain a safe meeting environment.
                     </p>
@@ -488,10 +488,10 @@
             <div class="testimonial-item bg-transparent border rounded text-white p-4">
                 <i class="fa fa-quote-left fa-2x mb-3"></i>
                 <p>
-                    "I am extremely satisfied with the services provided by Imeetly.
+                    "I am extremely satisfied with the services provided by Lemeetly.
                     The platform is user-friendly and has greatly improved our
                     remote collaboration. The virtual meetings are seamless, and the
-                    collaboration tools are robust. I highly recommend Imeetly for
+                    collaboration tools are robust. I highly recommend Lemeetly for
                     anyone looking for an efficient and reliable online meeting
                     solution."
                 </p>
@@ -506,9 +506,9 @@
             <div class="testimonial-item bg-transparent border rounded text-white p-4">
                 <i class="fa fa-quote-left fa-2x mb-3"></i>
                 <p>
-                    "Imeetly has been a game-changer for our team. The platform's
+                    "Lemeetly has been a game-changer for our team. The platform's
                     intuitive interface and powerful features have greatly improved
-                    our remote collaboration. I highly recommend Imeetly to anyone
+                    our remote collaboration. I highly recommend Lemeetly to anyone
                     looking for a reliable and secure online meeting solution."
                 </p>
                 <div class="d-flex align-items-center">
@@ -522,9 +522,9 @@
             <div class="testimonial-item bg-transparent border rounded text-white p-4">
                 <i class="fa fa-quote-left fa-2x mb-3"></i>
                 <p>
-                    "Imeetly has exceeded our expectations as an online meeting
+                    "Lemeetly has exceeded our expectations as an online meeting
                     platform. The ease of use and reliability have made our remote
-                    collaborations seamless. We highly recommend Imeetly to
+                    collaborations seamless. We highly recommend Lemeetly to
                     businesses looking to enhance their virtual communication."
                 </p>
                 <div class="d-flex align-items-center">
@@ -538,9 +538,9 @@
             <div class="testimonial-item bg-transparent border rounded text-white p-4">
                 <i class="fa fa-quote-left fa-2x mb-3"></i>
                 <p>
-                    "Imeetly has been an invaluable tool for our remote team. The
+                    "Lemeetly has been an invaluable tool for our remote team. The
                     platform's features and ease of use have made our virtual
-                    meetings more efficient. We are extremely pleased with Imeetly's
+                    meetings more efficient. We are extremely pleased with Lemeetly's
                     performance and would highly recommend it."
                 </p>
                 <div class="d-flex align-items-center">

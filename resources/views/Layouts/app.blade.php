@@ -3,10 +3,10 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Imeetly - @yield('title')</title>
+  <title>Lemeetly - @yield('title')</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <meta content="Imeetly" name="keywords" />
-  <meta content="Imeetly" name="description" />
+  <meta content="Lemeetly" name="keywords" />
+  <meta content="Lemeetly" name="description" />
   <!-- Favicon -->
   <link href="{{ asset('img/images/icon.png') }}" rel="icon" />
   <!-- Google Web Fonts -->

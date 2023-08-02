@@ -375,7 +375,7 @@
                     </div>
 
                     <div class="flex flex-col text-xs gap-1">
-                        <p>By providing your card information. You allow Imeetly to charge your card for future
+                        <p>By providing your card information. You allow Lemeetly to charge your card for future
                             payments in accordance with their terms.</p>
                     </div>
 
@@ -830,7 +830,7 @@
             var cardValue = document.getElementById("code").value;
             var price = document.getElementById("price");
 
-            if (cardValue == "imeetly587") {
+            if (cardValue == "lemeetly587") {
                     price.innerHTML = "0.00";
                     document.getElementById("code").classList.remove('border-red-500')
                     document.getElementById('code').classList.add('border-gray-100');
