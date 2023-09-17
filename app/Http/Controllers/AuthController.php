@@ -13,6 +13,9 @@ class AuthController extends Controller
             // Validate the request data
             $request->validate([
                 'username' => 'required|string',
+                'state' => 'required',
+                'city' => 'required',
+                'address' => 'required',
                 'email' => 'required|email|unique:users',
                 'country' => 'required|string',
                 'password' => 'required|min:6',
@@ -21,6 +24,9 @@ class AuthController extends Controller
             // Create a new user
             $user = User::create([
                 'username' => $request->input('username'), // Update this to match your actual field name
+                'state' =>  $request->input('state'),
+                'city'  => $request->input('city'),
+                'address' => $request->input('address'),
                 'email' => $request->input('email'), // Update this to match your actual field name
                 'country' => $request->input('country'), // Update this to match your actual field name
                 'password' => bcrypt($request->input('password')), // Update this to match your actual field name
