@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('Layouts.app')
 @section('title', 'Home')
 @section('content')
 <div class="flex items-center justify-center mt-5 mb-[100px] px-3 ">
