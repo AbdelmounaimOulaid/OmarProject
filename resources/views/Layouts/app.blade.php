@@ -37,26 +37,35 @@
         </svg>
         <span class="sr-only">Loading...</span>
     </div>
-  <div class="flex flex-col min-h-screen">
-    @include('Layouts.navbar')
-    @yield('content')
-    @include('Layouts.footer')
-  </div>
-  <!-- JavaScript Libraries -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="{{ asset('js/lib/wow/wow.min.js') }}"></script>
-  <script src="{{ asset('js/lib/easing/easing.min.js') }}"></script>
-  <script src="{{ asset('js/lib/waypoints/waypoints.min.js') }}"></script>
-  <script src="{{ asset('js/lib/owlcarousel/owl.carousel.min.js') }}"></script>
-  <script src="{{ asset('js/lib/isotope/isotope.pkgd.min.js') }}"></script>
-  <script src="{{ asset('js/lib/lightbox/js/lightbox.min.js') }}"></script>
-  <script src="{{ asset('js/lib/animateNumber/jquery.animateNumber.min.js') }}"></script>
-  <script src="{{ asset('js/lib/swiper/swiper.min.js') }}"></script> <!-- Swiper for image and text sliders -->
+    <div id="allthngs" class="flex flex-col min-h-screen">
+ 
+      @include('Layouts.navbar')
+      @yield('content')
+      @include('Layouts.footer')
+      </div>
+      <!-- JavaScript Libraries -->
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="{{ asset('js/lib/wow/wow.min.js') }}"></script>
+      <script src="{{ asset('js/lib/easing/easing.min.js') }}"></script>
+      <script src="{{ asset('js/lib/waypoints/waypoints.min.js') }}"></script>
+      <script src="{{ asset('js/lib/owlcarousel/owl.carousel.min.js') }}"></script>
+      <script src="{{ asset('js/lib/isotope/isotope.pkgd.min.js') }}"></script>
+      <script src="{{ asset('js/lib/lightbox/js/lightbox.min.js') }}"></script>
+      <script src="{{ asset('js/lib/animateNumber/jquery.animateNumber.min.js') }}"></script>
+      <script src="{{ asset('js/lib/swiper/swiper.min.js') }}"></script> <!-- Swiper for image and text sliders -->
 
-  <!-- Template Javascript -->
-  <script src="{{ asset('js/main.js') }}"></script>
+      <!-- Template Javascript -->
+      <script src="{{ asset('js/main.js') }}"></script>
+
+      <script>
+          
+          window.addEventListener('load', function () {
+            document.getElementById('preload-spinner').style.display = 'none';
+            document.getElementById('allthngs').style.display = 'block';
+          });
+        </script>
 </body>
 
 </html>
