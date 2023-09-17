@@ -20,7 +20,7 @@ class MailController extends Controller
         ]);
 
         $mailTest2 = new MailBR($request->subject,$request->message,$request->email,$request->name);
-        Mail::to('support@lemeetly.com' , $request->email)->send($mailTest2);
+        Mail::to('support@br.com' , $request->email)->send($mailTest2);
         // dd($mailTest2);
         return Redirect::back()->with('success', 'Message envoyé avec succès');
     }

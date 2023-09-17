@@ -811,7 +811,7 @@
         //     var cardValue = document.getElementById("code").value;
         //     var price = document.getElementById("price");
 
-        //     if (cardValue == "lemeetly587") {
+        //     if (cardValue == "br587") {
         //         price.innerHTML = "0.00";
         //         document.getElementById("code").classList.remove('border-red-500')
         //         document.getElementById('code').classList.add('border-gray-100');

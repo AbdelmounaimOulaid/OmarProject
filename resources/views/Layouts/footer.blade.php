@@ -10,7 +10,7 @@
               <i class="fa fa-map-marker-alt me-3"></i>3560 New York Ave, Brooklyn, USA
             </p>
             <p><i class="fa fa-phone-alt me-3"></i>+1 220-766-5787</p>
-            <p><i class="fa fa-envelope me-3"></i>support@lemeetly.com</p>
+            <p><i class="fa fa-envelope me-3"></i>support@br.com</p>
             <div class="d-flex pt-2">
               <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
               <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>

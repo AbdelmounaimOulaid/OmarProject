@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `imeetwsz_lemeetly`
+-- Database: `imeetwsz_br`
 --
 
 -- --------------------------------------------------------
@@ -283,7 +283,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `isAdmin`, `firstname`, `lastname`, `job`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(53, 1, 'ADMIN', 'ADMIN', 'student', 'admin@lemeetly.com', NULL, '$2y$10$oqFz8Ew0flgoMRjNFoC8Pe5mhJ7QhRVUtQJoP9wlVpvfNprbf6xSW', NULL, '2023-07-13 20:33:12', '2023-07-13 20:33:12'),
+(53, 1, 'ADMIN', 'ADMIN', 'student', 'admin@br.com', NULL, '$2y$10$oqFz8Ew0flgoMRjNFoC8Pe5mhJ7QhRVUtQJoP9wlVpvfNprbf6xSW', NULL, '2023-07-13 20:33:12', '2023-07-13 20:33:12'),
 (54, 0, 'ds', 'dsdsd', 'candidate', 'rmads2343@gmail.com', NULL, '$2y$10$0Us/Uph3eYnr.bqReRC3LeTRUD0vSpt6AXafGSnc6hjgKlu7gLPGW', NULL, '2023-07-13 20:35:04', '2023-07-13 20:35:04'),
 (55, 0, 'Ross', 'McMullen', 'candidate', 'makka020191@gmail.com', NULL, '$2y$10$a8f2OuHd.zjCWtV35Expi.19XUxa7hgTM0eVzg0ano7uJIXR4itaG', NULL, '2023-07-13 20:38:43', '2023-07-13 20:38:43'),
 (56, 0, 'Ehab', 'AbuMallouh', 'candidate', 'ehab.abumallouh@gmail.com', NULL, '$2y$10$HXZb4Yz0t8Lpz.4YIPFNjuN80Ii7C4gIqiSO4Q6WYBbT.h16r2TFi', NULL, '2023-07-13 20:51:45', '2023-07-13 20:51:45'),

@@ -17,7 +17,7 @@
 
     <h2>Introduction</h2>
 
-    <p>These Website Standard Terms and Conditions written on this webpage shall manage your use of our website, BR accessible at https://lemeetly.com.</p>
+    <p>These Website Standard Terms and Conditions written on this webpage shall manage your use of our website, BR accessible at https://br.com.</p>
 
     <p>These Terms will be applied fully and affect to your use of this Website. By using this Website, you agreed to accept all terms and conditions written in here. You must not use this Website if you disagree with any of these Website Standard Terms and Conditions. These Terms and Conditions have been generated with the help of the <a href="https://www.termsandcondiitionssample.com">Terms And Conditiions Sample Generator</a>.</p>
 
