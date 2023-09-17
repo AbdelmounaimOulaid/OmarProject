@@ -45,7 +45,7 @@
       </div>
       <div class="w-full px-3">
         <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="city">
-          city
+          City
         </label>
         <input class="appearance-none block w-full bg-gray-200 text-gray-700 border {{ $errors->has('city') ? 'border-red-500' : 'border-gray-200' }} rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="city" name="city" type="text" placeholder="Jane">
         @error('city')
@@ -96,3 +96,6 @@
   </form>
 </div>
 @endsection
+<script>
+    document.
+  </script>
