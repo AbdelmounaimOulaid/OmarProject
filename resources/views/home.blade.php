@@ -20,7 +20,7 @@
         <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="email">
           email
         </label>
-        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border {{ $errors->has('email') ? 'border-red-500' : 'border-gray-200' }} rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" name="email" type="text" placeholder="Doe">
+        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border {{ $errors->has('email') ? 'border-red-500' : 'border-gray-200' }} rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" name="email" type="text" placeholder="doe@gmail.com">
         @error('email')
         <p class="text-red-500 text-xs italic">{{ $message }}</p>
         @enderror
