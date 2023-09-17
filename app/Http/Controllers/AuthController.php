@@ -9,31 +9,31 @@ use App\Models\User;
 class AuthController extends Controller
 {
     public function register(Request $request)
-    {
-        // Validate the request data
-        $request->validate([
-            'firstname' => 'required|string',
-            'lastname' => 'required|string',
-            'job' => 'required|string',
-            'email' => 'required|email|unique:users',
-            'password' => 'required|min:6',
-        ]);
+{
+            // Validate the request data
+            $request->validate([
+                'username' => 'required|string',
+                'email' => 'required|email|unique:users',
+                'country' => 'required|string',
+                'password' => 'required|min:6',
+            ]);
 
-        // Create a new user
-        $user = User::create([
-            'firstname' => $request->firstname,
-            'lastname' => $request->lastname,
-            'job' => $request->job,
-            'email' => $request->email,
-            'password' => bcrypt($request->password),
-        ]);
+            // Create a new user
+            $user = User::create([
+                'username' => $request->input('username'), // Update this to match your actual field name
+                'email' => $request->input('email'), // Update this to match your actual field name
+                'country' => $request->input('country'), // Update this to match your actual field name
+                'password' => bcrypt($request->input('password')), // Update this to match your actual field name
+            ]);
 
-        // Log in the user
-        Auth::login($user);
+            // Log in the user
+            Auth::login($user);
 
-        // Redirect to the payment page
-        return redirect()->route('plans');
-    }
+            // Redirect to the payment page
+            return redirect()->route('payment');;
+        }
+
+    
 
     public function login(Request $request)
     {
@@ -47,7 +47,7 @@ class AuthController extends Controller
         if (Auth::attempt(['email' => $request->email, 'password' => $request->password])) {
             // Authentication successful
             // Redirect to the payment page
-            return redirect()->route('plans');
+            return redirect()->route('dashboard');
         }
 
         // Authentication failed
@@ -66,15 +66,15 @@ class AuthController extends Controller
     public function payment()
     {
         // Check if the user is authenticated
-        if (Auth::check()) {
+        // if (Auth::check()) {
             // User is authenticated
             // Show the payment page
             return view('payment');
-        }
+        // }
 
         // User is not authenticated
         // Redirect to login page
-        return redirect()->route('login');
+        // return redirect()->route('home');
     }
 
     public function logout(Request $request)

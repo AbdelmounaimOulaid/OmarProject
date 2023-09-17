@@ -62,7 +62,12 @@ Route::get('/terms', function () {
     return view('terms');
 })->name('terms');
 
-Route::get('/payment', [AuthController::class , 'payment'])->name('payment')->middleware('auth');
+Route::get('/success' , function () {
+    Session::put('page','success');
+    return view('success');
+})->name('success');
+
+Route::get('/payment', [AuthController::class , 'payment'])->name('payment');
 Route::post('/registerCheck', [AuthController::class , 'register'])->name('registerCheck');
 Route::post('/loginCheck', [AuthController::class , 'login'])->name('loginCheck');
 Route::get('/check-login', [AuthController::class , 'checkLogin'])->name('check-login');
@@ -73,11 +78,12 @@ Route::post('/send-mail', [MailController::class , 'envoyerEmail'])->name('send-
 
 
 
-Route::get('/dashboard',[DashboardController::class , 'index'])->middleware('auth');
+Route::get('/dashboard',[DashboardController::class , 'index'])->name('dashboard')->middleware('auth');
 Route::get('/dashboard/details/{id}',[DashboardController::class , 'detail'])->middleware('auth');
 
-Route::post('/pay',[DashboardController::class , 'payment'])->middleware('auth');
+Route::match(['get', 'post'],'/pay',[DashboardController::class , 'payment']);
 
 Route::post('/verificationCode',[DashboardController::class, 'verificationCode'])->middleware('auth');
 Route::post('/deleteDetail/{id}',[DashboardController::class, 'deleteDetail'])->middleware('auth');
 Route::post('/changeStatus' , [DashboardController::class, 'changeStatus'])->middleware('auth');
+

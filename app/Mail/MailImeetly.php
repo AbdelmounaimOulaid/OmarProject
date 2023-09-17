@@ -10,7 +10,7 @@ use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Mail\Attachment;
 
-class MailLemeetly extends Mailable
+class MailBR extends Mailable
 {
     use Queueable, SerializesModels;
 

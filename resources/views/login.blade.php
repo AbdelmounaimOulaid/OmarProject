@@ -43,8 +43,8 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="form-floating">
-                                    <input type="password" class="form-control" name="password" id="password" placeholder="Your Password">
-                                    <label for="password">Password</label>
+                                    <input type="password" class="form-control" name="password" id="password" placeholder="Your password">
+                                    <label for="password">password</label>
                                 </div>
                             </div>
 

@@ -15,9 +15,9 @@ return new class extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->string('firstname');
-            $table->string('lastname');
-            $table->string('job');
+            $table->string('username');
+            $table->double('isAdmin')->default(0);
+            $table->string('country');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
@@ -25,7 +25,8 @@ return new class extends Migration
             $table->timestamps();
         });
     }
-
+    
+    
     /**
      * Reverse the migrations.
      *
