@@ -37,7 +37,7 @@
         </svg>
         <span class="sr-only">Loading...</span>
     </div>
-    <div id="allthngs" style="display:none;" class="flex flex-col min-h-screen">
+    <div id="allthngs" class="flex flex-col min-h-screen">
  
       @include('Layouts.navbar')
       @yield('content')
