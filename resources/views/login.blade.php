@@ -49,7 +49,7 @@
                             </div>
 
                             <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Login</button>
+                                <button class="btn btn-dark w-100 py-3" type="submit">Login</button>
                                 <p>Become a Member ?<a href="/register"> <strong>Register</strong></a></p>
                             </div>
                         </div>
