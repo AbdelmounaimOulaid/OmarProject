@@ -96,6 +96,4 @@
   </form>
 </div>
 @endsection
-<script>
-    document.
-  </script>
+
