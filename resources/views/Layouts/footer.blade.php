@@ -41,7 +41,7 @@
       </div>
       <div class="lg:hidden w-full flex justify-center items-center py-5">
         <img width="80" height="80" class="px-2" src="https://img.icons8.com/color/48/visa.png" alt="visa" />
-        <img width="80" height="80" class="px-2" src="{{url('img/logo-cmi-open.png')}}" alt="visa" />
+        <!-- <img width="80" height="80" class="px-2" src="{{url('img/logo-cmi-open.png')}}" alt="visa" /> -->
         <img width="80" height="80" class="px-2" src="https://img.icons8.com/color/48/mastercard-logo.png" alt="mastercard-logo" />
       </div>
 
