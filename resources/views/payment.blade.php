@@ -368,7 +368,7 @@
                     </div>
 
                     <div class="flex justify-center align-center text-xs gap-1 pt-3">
-                        <button type="submit" id="buy" class="w-50 px-6 text-white py-3 rounded-full bg-green-500 disabled:opacity-20" enabled>
+                        <button type="submit" id="buy" class="w-50 px-6 text-white py-3 rounded-full bg-green-500 disabled:opacity-20" disabled>
                             <span class="text-lg">Buy Now</span>
                         </button>
                     </div>
